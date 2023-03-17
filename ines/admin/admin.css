@@ -1,0 +1,285 @@
+/*Generalité */
+
+*
+{
+	
+	font-family: Calibri;
+	font-weight: lighter;
+	padding: 0;
+	margin: 0;
+}
+h1{
+	
+	font-size:50px;
+	color: #fff;
+}
+body
+{
+	background-color: #36221d ;
+	background-size: 100%;
+}
+section
+{
+	min-height: 540px;
+    padding-bottom: 10px;
+}
+footer
+{
+	
+	height: 30px;
+}
+a
+{
+	text-decoration: none;
+
+}
+
+.wrraper
+{
+	width:800px;
+	margin: 0 auto;
+	padding: 0 5px;
+	
+}
+.wrraper2
+{
+	width:1000px;
+	margin: 0 auto;
+	padding: 0 5px;
+	
+}
+
+/* Logo */
+div[class="logo"]
+{
+	height: 100px;
+
+}
+header a img
+{
+	margin-left:27%;
+	float: left;
+	margin-top: 25px ;
+	display: inline-block;
+}
+header h1
+{
+	float: left;
+	text-transform: uppercase;
+	margin-top: 20px;
+
+}
+header h2
+{
+	
+	text-transform: uppercase;
+	float: left;
+	margin-left: 5px;
+	margin-top: 45px;
+	font-size: 40px;
+	color: #1dba54;
+}
+div[class="container"] 
+{
+	text-align: center;
+}
+.container
+{
+	background: #fff;
+	width: 800px;
+	height: 400px;
+	position: absolute;
+	padding: 10px;
+	margin-top:20px;
+	border-radius: 10px;
+}
+.container2
+{
+	background: #fff;
+	width: 1000px;
+	min-height: 500px;
+	position: absolute;
+	padding: 10px;
+	margin-top:20px;
+	border-radius: 10px;
+}
+h3
+{
+	color:#1dba54;
+	font-size: 40px;
+	width: 400px;
+	text-transform: uppercase;
+	margin: auto auto;
+	font-family: 'raleway';
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+label
+{
+	color: #919496;
+	font-size: 25px;
+    font-family: 'montserrat-n';
+    font-weight: bold;
+
+}
+.all-inp
+{
+
+	height: 120px;
+	display:block;
+
+
+}
+.inp
+{
+	width: 350px;
+	height: 70px;
+	display:inline-block;
+	
+}
+.pseudo
+{
+	height: 25px;
+    color: #C33200;
+    font-size: 15px;
+    font-style: italic;
+    float: left;
+    margin-left: 15px;
+}
+input[class="connexion"] 
+{	
+	width: 300px;
+	margin-top: 25px;
+	margin-bottom: 5px;
+	padding: 10px;
+	font-size: 25px ;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: 2px solid #ddd;
+	border-radius: 3px;
+}
+.btn1
+{
+	color: #fff;
+	width: 200px;
+	font-size: 20px;
+	font-weight: normal;
+	background-color: #1DB954;
+	padding: 11px;
+	border-style: none;
+	border-radius: 3px;
+	
+	margin-bottom: 10px;
+
+}
+.btn1:hover
+{
+	background-color: #1ed760;
+}
+.erreur
+{
+	color: #C33200;
+	padding-top: 5px;
+}
+
+
+/*Tab*/
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #130C0A;
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: 'ubuntu-r';
+    font-weight: lighter;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #E9C4AA;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #393331;
+    color: #fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #130C0A;
+    border-top: none;
+
+}
+h4
+{
+	font-size: 26px;
+	font-family: 'ubuntu-r';
+	margin: 25px 10px;
+	font-weight: 500;
+    line-height: 1.1;
+}
+.btn-group-lg .btn, .btn-lg {
+    padding: 10px 16px;
+    
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+footer
+{
+	width: 100px;
+}
+
+@font-face {
+  font-family: 'ubuntu-r';
+  src: url('../fonts/Ubuntu-Regular.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ubuntu-l';
+  src: url('../fonts/Ubuntu-Light.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'raleway';
+  src: url('../fonts/Raleway-Light.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserrat-l';
+  src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserrat-n';
+  src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

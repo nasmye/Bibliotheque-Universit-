@@ -1,0 +1,184 @@
+﻿/*General */
+
+*
+{
+	font-family: calibri;
+	font-weight: lighter;
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	background-color: #36221d ;
+	
+	background-size: 100%;
+}
+h1{
+	font-size:50px;
+	color: #fff;
+}
+a
+{
+	text-decoration: none;
+}
+ul
+{
+	list-style: none;
+}
+.wrraper
+{
+	width:1488px;
+	margin: 0 auto;
+	padding: 0 5px;
+	float: center;
+
+}
+/* header */
+
+	/* High */
+header
+{
+	height: 200px;
+	background-color: rgba(0,0,0,0.65) ;
+}
+header a .img
+{
+	float: left;
+	margin: 30px 15px;
+}
+header h1
+{
+	float: left;
+	text-transform: uppercase;
+	margin-top: 25px;
+}
+header h2
+{
+	text-transform: uppercase;
+	float: left;
+	margin-left: 5px;
+	margin-top: 50px;
+	font-size: 40px;
+	color: #1dba54;
+}
+.search
+{
+	display: inline-block;
+	background: rgba(255,255,255,0.16);
+	height: 50px;
+	width: 600px;
+	border:none;
+	margin: 20px 20px;
+	border-radius: 5px;
+}
+.button-1
+{
+	background: url('images/recherche.png') center;
+	float: left;
+	height: 50px;
+	width: 50px;
+	border: none;
+	padding: none;
+	cursor: pointer;
+}
+.recherche
+{
+	font-size: 30px;
+	color: #fff;
+	height: 50px;
+	width: 540px;
+	border:none;
+	padding: none;
+	background: rgba(255,255,255,0.10);
+	padding-left: 10px;
+}
+.connexion ,.inscription 
+{
+	float: right;
+	margin-right: 25px;
+	margin-top: 25px;
+	font-size: 40px;
+}
+.connexion
+{
+	color: #fff;
+}
+.inscription
+{
+	color: #1dba54;
+}
+
+.profil
+{
+	text-transform: uppercase;
+	float: right;
+	margin-right: 25px;
+	margin-top: 35px;
+	font-size: 25px;
+	color: #fff;
+}
+}
+.photo-profil
+{
+	min-width: 44px;
+	margin-top: 5px;
+}
+.avancée
+{
+margin-left: 470px;
+color: #fff;
+font-size: 25px;
+}
+
+	/* Menu */
+.menu
+{
+	margin-top: 30px;
+	margin-left: 30px;
+}	
+header nav ul li
+{
+	display: inline-block;
+	float:left;
+}
+header nav ul li a 
+{
+	font-family: 'raleway';
+	font-size: 30px;
+	color:#fff;
+	text-transform: none;
+	margin-right: 30px;
+}
+header nav ul li a:hover
+{
+	color:#1dba54;
+} 
+	/* Ligne */
+#ligne
+{
+	height: 4px; 
+	clear: both;
+	display: flex;	
+}
+.btn-emprunt
+{
+  color:#fff;
+  background-color:#e7480f;
+}
+/* Footer */
+footer
+{
+	height: 50px;
+}
+@font-face {
+  font-family: 'playfair';
+  src: url('fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'raleway';
+  src: url('fonts/Raleway-Light.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
